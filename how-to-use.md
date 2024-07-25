@@ -1,7 +1,7 @@
 # How to add this extension to your chrome 
 
 1. Download the extension from the [release page](https://patilyash.vercel.app/extension.html)
-2. select extension (directly open github after clicking it)
+2. select extension.
 3. dowmload the zip file
 4. open chrome and go to extensions
 5. click on load unpacked
