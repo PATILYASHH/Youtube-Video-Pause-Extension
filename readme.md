@@ -1,25 +1,25 @@
-# Youtube Auto video pause externsion
+# YouTube Auto Video Pause Extension
 
-### This extension will pause the Youtube video when you change the tab and play againg where it stoped when you return back on that tab
+This extension pauses the YouTube video when you change the tab and resumes playing from where it stopped when you return to the tab.
 
-# How To Use -
+## How to Use
 
-1. Add this Extension to user Chrome
-2. Open any Youtube video
-3. Change the tab
-4. Return back to the tab
-5. Video will play from where it stoped
+1. Add this extension to your Chrome browser.
+2. Open any YouTube video.
+3. Change the tab.
+4. Return to the tab.
+5. The video will resume playing from where it stopped.
 
-# How To Install -
+## How to Install
 
-For instructon Click [Here](how-to-use.md) 
+For installation instructions, click [here](how-to-use.md).
 
-# How To Contribute -
+## How to Contribute
 
-For instructon Click [Here](contribution.md) 
+For contribution instructions, click [here](contribution.md).
 
 ---
 
-# For More Extensions - 
+## For More Extensions
 
-### Visite my website [Here](https://patilyash.vercel.app)
+Visit my website [here](https://patilyash.vercel.app).
