@@ -1,30 +1,30 @@
-# How to add this extension to your chrome 
+# How to Add This Extension to Your Chrome
 
-1. Download the extension from the [release page](https://patilyash.vercel.app/extension.html)
-2. select extension.
-3. dowmload the zip file
-4. open chrome and go to extensions
-5. click on load unpacked
-6. select the folder you downloaded the zip file in
-7. you are done!
+1. Download the extension from the [release page](https://patilyash.vercel.app/extension.html).
+2. Select the extension.
+3. Download the ZIP file.
+4. Open Chrome and go to Extensions.
+5. Click on "Load unpacked".
+6. Select the folder where you downloaded the ZIP file.
+7. You're done!
 
+## What This Extension Does
 
-# What this extension does
+This extension automatically pauses the YouTube video when you change the tab and resumes playing when you return to the tab.
 
-this extension is a simple extension that pause the youtube video automaticaly when you change the tab and when you retuen on that tab then it will play again automatically.
+## How to Use This Extension
 
-# How to use this extension
+1. Open YouTube.
+2. Play any video.
+3. Open any other tab.
+4. When you return to the YouTube tab, the video will play automatically.
 
-1. open youtube
-2. play any video
-3. open any other tab
-4. when you return to the youtube tab the video will play automatically
+## How to Remove This Extension
 
-# How to remove this extension
+1. Open Chrome.
+2. Go to Extensions.
+3. Find the extension and click on the remove button.
 
-1. open chrome
-2. go to extensions
-3. find the extension and click on the remove button
+---
 
-
-# Thank you ..
+Thank you!
