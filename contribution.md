@@ -30,4 +30,5 @@
 
 ## Contributors
 
-1. [Yash Patil](https://github.com/patilyashh) - [Owner]
+1. ![Yash Patil](https://github.com/patilyashh.png | width=20px; height=20px; style="border-radius:50%;") - [Yash Patil](https://github.com/patilyashh) - [Owner]
+
