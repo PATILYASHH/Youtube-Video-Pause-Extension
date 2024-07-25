@@ -1,6 +1,6 @@
 # Youtube Auto video pause externsion
 
-### This extension will pause the Yooutube video when you change the tab and play againg where it stoped when you return back on that tab
+### This extension will pause the Youtube video when you change the tab and play againg where it stoped when you return back on that tab
 
 # How To Use -
 
