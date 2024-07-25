@@ -1,4 +1,4 @@
-# How To Contribute This Project -
+# How to Contribute to This Project
 
 1. Fork the repository.
 2. Clone the repository to your local machine.
@@ -6,28 +6,28 @@
 4. Push your changes to your forked repository.
 5. Create a pull request from your forked repository to the original repository.
 6. Wait for the maintainers to review your pull request and merge it into the original repository.
----
-
-# Rules -
-
-1. Please make sure your code is clean and well-documented.
-2. Please follow the coding standards and conventions of the project.
-3. Please make sure your code is tested and works as expected.
-4. Please make sure your code is compatible with all the supported platforms and environments.
-5. Please make sure your code is free from any security vulnerabilities.
-6. Please make sure your code is free from any copyright issues.
-7. Please make sure your code is free from any plagiarism issues.
-8. Please make sure your code is free from any bugs or errors.
 
 ---
 
-# Task While contrbuting -
+## Rules
 
-1. Add Your ***Name*** and ***User Name*** in the Contributors section. [Here](contribution.md)
-
+1. Ensure your code is clean and well-documented.
+2. Follow the coding standards and conventions of the project.
+3. Test your code to ensure it works as expected.
+4. Ensure your code is compatible with all supported platforms and environments.
+5. Make sure your code is free from security vulnerabilities.
+6. Ensure your code is free from copyright issues.
+7. Ensure your code is free from plagiarism.
+8. Ensure your code is free from bugs or errors.
 
 ---
 
-# Contributers-
+## Tasks While Contributing
+
+1. Add your ***Name*** and ***Username*** in the Contributors section [here](contribution.md).
+
+---
+
+## Contributors
 
 1. [Yash Patil](https://github.com/patilyashh) - [Owner]
