@@ -30,5 +30,8 @@
 
 ## Contributors
 
-1. ![Yash Patil](https://github.com/patilyashh.png | width=20px; height=20px; style="border-radius:50%;") - [Yash Patil](https://github.com/patilyashh) - [Owner]
+1. <img src="https://github.com/patilyashh.png" alt="Yash Patil" width="20" height="20" style="border-radius:50%;"> - [Yash Patil](https://github.com/patilyashh) - [Owner]
 
+---
+
+**Note:** To add your logo, ensure your GitHub profile picture is updated as it will be fetched automatically using your username.
