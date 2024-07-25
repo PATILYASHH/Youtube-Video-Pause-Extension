@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Auto Pause",
+    "version": "1.0",
+    "description": "Automatically pauses YouTube videos when you leave the tab and resumes when you return.",
+    "permissions": [
+      "tabs",
+      "scripting",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
