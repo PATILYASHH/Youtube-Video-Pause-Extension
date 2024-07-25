@@ -22,4 +22,4 @@ For instructon Click [Here](contribution.md)
 
 # For More Extensions - 
 
-### Visite my website [Here](https://patilyash.vercel.app/extension)
+### Visite my website [Here](https://patilyash.vercel.app/extension.html)
