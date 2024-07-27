@@ -1,4 +1,4 @@
-# Directly Download ZIP file-
+# Directly Download ZIP file -
 
 Click here -> [⬇️](https://github.com/PATILYASHH/Youtube-Video-Pause-Extension/archive/refs/heads/master.zip)
 
