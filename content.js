@@ -1,28 +1,32 @@
-function pauseVideo() {
-    const video = document.querySelector('video');
-    if (video && !video.paused) {
-      video.pause();
-      chrome.storage.local.set({ [window.location.href]: video.currentTime });
-    }
+window.addEventListener('message', (event) => {
+  if (event.source !== window) return;
+
+  const video = document.querySelector('video');
+  if (!video) return;
+
+  const { action } = event.data;
+
+  if (action === 'play') {
+    video.play();
+  } else if (action === 'pause') {
+    video.pause();
+  } else if (action === 'stop') {
+    video.pause();
+    video.currentTime = 0;
   }
-  
-  function resumeVideo() {
-    const video = document.querySelector('video');
-    if (video) {
-      chrome.storage.local.get(window.location.href, (result) => {
-        if (result[window.location.href] !== undefined) {
-          video.currentTime = result[window.location.href];
+});
+
+document.addEventListener('visibilitychange', () => {
+  chrome.storage.local.get(['autoControl'], (result) => {
+    if (result.autoControl) {
+      const video = document.querySelector('video');
+      if (video) {
+        if (document.hidden) {
+          video.pause();
+        } else {
           video.play();
         }
-      });
-    }
-  }
-  
-  document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') {
-      pauseVideo();
-    } else {
-      resumeVideo();
+      }
     }
   });
-  
+});
