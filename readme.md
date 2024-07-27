@@ -23,3 +23,8 @@ For contribution instructions, click [here](contribution.md).
 ## For More Extensions
 
 Visit my website [here](https://patilyash.vercel.app).
+
+
+# How to Download The Extension -
+
+Click here [⬇️](link)
