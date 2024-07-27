@@ -1,3 +1,10 @@
+# Directly Download ZIP file-
+
+Click here -> [⬇️](https://github.com/PATILYASHH/Youtube-Video-Pause-Extension/archive/refs/heads/master.zip)
+
+
+---
+
 # YouTube Auto Video Pause Extension
 
 This extension pauses the YouTube video when you change the tab and resumes playing from where it stopped when you return to the tab.
@@ -25,6 +32,3 @@ For contribution instructions, click [here](contribution.md).
 Visit my website [here](https://patilyash.vercel.app).
 
 
-# How to Download The Extension -
-
-Click here -> [⬇️](https://github.com/PATILYASHH/Youtube-Video-Pause-Extension/archive/refs/heads/master.zip)
