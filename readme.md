@@ -27,4 +27,4 @@ Visit my website [here](https://patilyash.vercel.app).
 
 # How to Download The Extension -
 
-Click here [⬇️](link)
+Click here -> [⬇️](https://github.com/PATILYASHH/Youtube-Video-Pause-Extension/archive/refs/heads/master.zip)
