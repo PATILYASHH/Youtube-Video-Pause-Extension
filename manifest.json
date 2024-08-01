@@ -1,29 +1,24 @@
 {
-  "manifest_version": 3,
-  "name": "YouTube Controller",
-  "version": "1.0",
-  "description": "Control YouTube video playback and auto-pause/auto-play on tab change",
-  "permissions": ["activeTab", "scripting", "storage"],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://*.youtube.com/*"],
-      "js": ["content.js"]
-    }
-  ],
-  "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "manifest_version": 3,
+    "name": "YouTube Auto Pause/Play",
+    "version": "1.0",
+    "description": "Automatically pause and play YouTube videos when switching tabs.",
+    "permissions": [
+      "tabs",
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
   }
-}
+  

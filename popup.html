@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>YouTube Controller</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-    }
-    .button {
-      display: block;
-      width: 100%;
-      margin: 10px 0;
+      width: 200px;
       padding: 10px;
-      background-color: #f44336;
+    }
+    .toggle-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      background-color: #007bff;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      text-align: center;
+    }
+    .toggle-button.off {
+      background-color: #dc3545;
     }
   </style>
 </head>
 <body>
-  <button id="play" class="button">Play</button>
-  <button id="pause" class="button">Pause</button>
-  <button id="stop" class="button">Stop</button>
-  <label>
-    <input type="checkbox" id="autoControl"> Auto Control (Pause/Play on tab change)
-  </label>
+  <h3>YouTube Auto Pause/Play</h3>
+  <button id="toggleButton" class="toggle-button">Disable Auto Pause</button>
   <script src="popup.js"></script>
 </body>
 </html>

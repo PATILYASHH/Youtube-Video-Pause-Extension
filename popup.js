@@ -1,31 +1,29 @@
-document.getElementById('play').addEventListener('click', () => {
-  sendMessageToContentScript({ action: 'play' });
-});
-
-document.getElementById('pause').addEventListener('click', () => {
-  sendMessageToContentScript({ action: 'pause' });
-});
-
-document.getElementById('stop').addEventListener('click', () => {
-  sendMessageToContentScript({ action: 'stop' });
-});
-
-document.getElementById('autoControl').addEventListener('change', (event) => {
-  chrome.storage.local.set({ autoControl: event.target.checked });
-});
-
-chrome.storage.local.get(['autoControl'], (result) => {
-  document.getElementById('autoControl').checked = result.autoControl || false;
-});
-
-function sendMessageToContentScript(message) {
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    chrome.scripting.executeScript({
-      target: { tabId: tabs[0].id },
-      function: (message) => {
-        window.postMessage(message, '*');
-      },
-      args: [message]
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('toggleButton');
+  
+    chrome.storage.local.get('autoPauseEnabled', (data) => {
+      if (data.autoPauseEnabled) {
+        toggleButton.textContent = 'Disable Auto Pause';
+        toggleButton.classList.remove('off');
+      } else {
+        toggleButton.textContent = 'Enable Auto Pause';
+        toggleButton.classList.add('off');
+      }
+    });
+  
+    toggleButton.addEventListener('click', () => {
+      chrome.storage.local.get('autoPauseEnabled', (data) => {
+        const newValue = !data.autoPauseEnabled;
+        chrome.storage.local.set({ autoPauseEnabled: newValue }, () => {
+          if (newValue) {
+            toggleButton.textContent = 'Disable Auto Pause';
+            toggleButton.classList.remove('off');
+          } else {
+            toggleButton.textContent = 'Enable Auto Pause';
+            toggleButton.classList.add('off');
+          }
+        });
+      });
     });
   });
-}
+  
